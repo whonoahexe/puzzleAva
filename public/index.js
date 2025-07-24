@@ -1,5 +1,5 @@
 
-(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35730/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
+(function(l, r) { if (l.getElementById('livereloadscript')) return; r = l.createElement('script'); r.async = 1; r.src = '//' + (window.location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1'; r.id = 'livereloadscript'; l.getElementsByTagName('head')[0].appendChild(r) })(window.document);
 function noop$1() { }
 const identity = x => x;
 function assign(tar, src) {
@@ -22848,7 +22848,7 @@ var undefined$3 = undefined;
 const { Object: Object_1 } = globals;
 const file$3 = "src\\ui\\routes\\Home.svelte";
 
-// (44:1) {#if button}
+// (55:1) {#if button}
 function create_if_block_1(ctx) {
 	let matter_1;
 	let current;
@@ -22888,14 +22888,14 @@ function create_if_block_1(ctx) {
 		block,
 		id: create_if_block_1.name,
 		type: "if",
-		source: "(44:1) {#if button}",
+		source: "(55:1) {#if button}",
 		ctx
 	});
 
 	return block;
 }
 
-// (50:1) {#if isButtonActive}
+// (61:1) {#if isButtonActive}
 function create_if_block(ctx) {
 	let button_1;
 	let current;
@@ -22947,14 +22947,14 @@ function create_if_block(ctx) {
 		block,
 		id: create_if_block.name,
 		type: "if",
-		source: "(50:1) {#if isButtonActive}",
+		source: "(61:1) {#if isButtonActive}",
 		ctx
 	});
 
 	return block;
 }
 
-// (51:2) <Button    bind:this={button}    icon={buttonIcon}    on:click={() => {     $toastsW.push(ToastItem.from({      text: toastText,     }));      $toastsW = $toastsW;      // Get random fictional man URL     const menKeys = Object.keys(FICTIONAL_MEN);     const randomKey = menKeys[Math.floor(Math.random() * menKeys.length)];     // @ts-expect-error     const randomManURL = FICTIONAL_MEN[randomKey];      navigate(randomManURL);    }}   >
+// (62:2) <Button    bind:this={button}    icon={buttonIcon}    on:click={() => {     $toastsW.push(ToastItem.from({      text: toastText,     }));      $toastsW = $toastsW;      // Get random fictional man URL     const menKeys = Object.keys(FICTIONAL_MEN);     const randomKey = menKeys[Math.floor(Math.random() * menKeys.length)];     // @ts-expect-error     const randomManURL = FICTIONAL_MEN[randomKey];      navigate(randomManURL);    }}   >
 function create_default_slot$1(ctx) {
 	let t;
 
@@ -22977,7 +22977,7 @@ function create_default_slot$1(ctx) {
 		block,
 		id: create_default_slot$1.name,
 		type: "slot",
-		source: "(51:2) <Button    bind:this={button}    icon={buttonIcon}    on:click={() => {     $toastsW.push(ToastItem.from({      text: toastText,     }));      $toastsW = $toastsW;      // Get random fictional man URL     const menKeys = Object.keys(FICTIONAL_MEN);     const randomKey = menKeys[Math.floor(Math.random() * menKeys.length)];     // @ts-expect-error     const randomManURL = FICTIONAL_MEN[randomKey];      navigate(randomManURL);    }}   >",
+		source: "(62:2) <Button    bind:this={button}    icon={buttonIcon}    on:click={() => {     $toastsW.push(ToastItem.from({      text: toastText,     }));      $toastsW = $toastsW;      // Get random fictional man URL     const menKeys = Object.keys(FICTIONAL_MEN);     const randomKey = menKeys[Math.floor(Math.random() * menKeys.length)];     // @ts-expect-error     const randomManURL = FICTIONAL_MEN[randomKey];      navigate(randomManURL);    }}   >",
 		ctx
 	});
 
@@ -23032,17 +23032,17 @@ function create_fragment$3(ctx) {
 			string_1 = element("string");
 			t6 = text(/*string*/ ctx[5]);
 			attr_dev(container0, "class", "logo svelte-1f8elr3");
-			add_location(container0, file$3, 78, 2, 2615);
+			add_location(container0, file$3, 89, 2, 3295);
 			attr_dev(heading_1, "class", "svelte-1f8elr3");
-			add_location(heading_1, file$3, 99, 3, 2994);
+			add_location(heading_1, file$3, 110, 3, 3674);
 			attr_dev(string_1, "class", "svelte-1f8elr3");
-			add_location(string_1, file$3, 102, 3, 3035);
+			add_location(string_1, file$3, 113, 3, 3715);
 			attr_dev(container1, "class", "text svelte-1f8elr3");
-			add_location(container1, file$3, 96, 2, 2960);
+			add_location(container1, file$3, 107, 2, 3640);
 			attr_dev(container2, "class", "all svelte-1f8elr3");
-			add_location(container2, file$3, 75, 1, 2585);
+			add_location(container2, file$3, 86, 1, 3265);
 			attr_dev(component, "class", "svelte-1f8elr3");
-			add_location(component, file$3, 42, 0, 1981);
+			add_location(component, file$3, 53, 0, 2661);
 		},
 		l: function claim(nodes) {
 			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -23181,7 +23181,18 @@ function instance$3($$self, $$props, $$invalidate) {
 		4: "https://www.instagram.com/scamanderbrothers/?hl=en",
 		5: "https://www.instagram.com/_conradfisher_/?hl=en",
 		6: "https://disney.fandom.com/wiki/Beast",
-		7: "https://disney.fandom.com/wiki/Flynn_Rider"
+		7: "https://disney.fandom.com/wiki/Flynn_Rider",
+		8: "https://disney.fandom.com/wiki/Prince_Naveen",
+		9: "https://the-folk-of-the-air.fandom.com/wiki/Cardan_Greenbriar",
+		10: "https://www.instagram.com/calahan.skogman/?hl=en",
+		11: "https://www.instagram.com/johnnyorlando/?hl=en",
+		12: "https://www.youtube.com/watch?v=eFS5vxYlfY8",
+		13: "https://www.instagram.com/hugh_dancy/?hl=en",
+		14: "https://www.instagram.com/twhiddleston/?hl=en",
+		15: "https://www.instagram.com/damianhardung/?hl=en",
+		16: "https://a-good-girls-guide-to-murder.fandom.com/wiki/Ravi_Singh",
+		17: "https://shatterme.fandom.com/wiki/Aaron_Warner",
+		18: "https://thegrishaverse.fandom.com/wiki/Matthias_Helvar"
 	};
 
 	let button;

@@ -28,7 +28,22 @@
 		4: 'https://www.instagram.com/scamanderbrothers/?hl=en',
 		5: 'https://www.instagram.com/_conradfisher_/?hl=en',
 		6: 'https://disney.fandom.com/wiki/Beast',
-		7: 'https://disney.fandom.com/wiki/Flynn_Rider'
+		7: 'https://disney.fandom.com/wiki/Flynn_Rider',
+		8: 'https://disney.fandom.com/wiki/Prince_Naveen',
+		9: 'https://the-folk-of-the-air.fandom.com/wiki/Cardan_Greenbriar',
+		10: 'https://www.instagram.com/calahan.skogman/?hl=en',
+		11: 'https://www.instagram.com/johnnyorlando/?hl=en',
+		12: 'https://www.youtube.com/watch?v=eFS5vxYlfY8',
+		13: 'https://www.instagram.com/hugh_dancy/?hl=en',
+		14: 'https://www.instagram.com/twhiddleston/?hl=en',
+		15: 'https://www.instagram.com/damianhardung/?hl=en',
+		16: 'https://a-good-girls-guide-to-murder.fandom.com/wiki/Ravi_Singh',
+		17: 'https://shatterme.fandom.com/wiki/Aaron_Warner',
+		18: 'https://thegrishaverse.fandom.com/wiki/Matthias_Helvar',
+		19: 'https://www.instagram.com/louispartridge_/?hl=en',
+		20: 'https://www.instagram.com/lorenzo_zurzolo/?hl=en',
+		21: 'https://www.instagram.com/cillianmurphyofficiall/?hl=en',
+		22: 'https://open.spotify.com/artist/3nnQpaTvKb5jCQabZefACI'
 	}
 
 	let button: Button;
