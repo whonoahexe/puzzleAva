@@ -1,0 +1,22 @@
+diff --git a/node_modules/@types/matter-js/index.d.ts b/node_modules/@types/matter-js/index.d.ts
+index 0404996..af6e053 100644
+--- a/node_modules/@types/matter-js/index.d.ts
++++ b/node_modules/@types/matter-js/index.d.ts
+@@ -2184,7 +2184,7 @@ declare namespace Matter {
+         * @property constraint
+         * @type constraint
+         */
+-        constraint?: Constraint;
++        constraint?: Partial<Constraint>;
+ 
+         /**
+         * An `Object` that specifies the collision filter properties.
+@@ -3132,7 +3132,7 @@ declare namespace Matter {
+          * @param body
+          * @returns world
+          */
+-        static add(world: World, body: Body | Array<Body> | Composite | Array<Composite> | Constraint | Array<Constraint> | MouseConstraint): World;
++        static add(world: World, body: Body | Composite | Constraint | MouseConstraint | (Body | Composite | Constraint | MouseConstraint)[]): World;
+ 
+         /**
+          * An alias for Composite.addBody since World is also a Composite

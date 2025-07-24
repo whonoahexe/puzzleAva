@@ -1,0 +1,23 @@
+a,
+a:link {
+	color: var(--colour-accent-primary);
+
+	transition: opacity 0.3s var(--ease-fast-slow),
+				color 0.3s var(--ease-slow-slow);
+}
+
+a:hover {
+	color: var(--colour-accent-secondary);
+}
+
+a:visited {
+	color: var(--colour-accent-secondary);
+}
+
+a:visited:hover {
+	color: var(--colour-accent-primary);
+}
+
+a:active {
+	opacity: 0;
+}

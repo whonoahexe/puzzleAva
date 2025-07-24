@@ -1,0 +1,17 @@
+heading {
+	display: block;
+
+	font-family: var(--font-family-1);
+	font-weight: 700;
+	font-variation-settings: var(--font-variation-bold);
+	/* letter-spacing: -0.08em; */
+	text-indent: 0;
+	font-size: 3rem;
+	line-height: 1em;
+	color: var(--colour-text-primary);
+
+	/* margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px; */
+}

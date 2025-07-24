@@ -1,0 +1,19 @@
+string {
+	display: block;
+
+	font-family: var(--font-family-2);
+	font-weight: 400;
+	font-variation-settings: var(--font-variation-regular);
+	text-indent: 0;
+	font-size: 1rem;
+	line-height: 0.9em;
+	letter-spacing: -0.1em;
+	color: var(--colour-text-secondary);
+
+	margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+	margin-inline-end: 0px;
+	
+	word-break: break-word;
+}

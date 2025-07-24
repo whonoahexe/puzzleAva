@@ -1,0 +1,11 @@
+:root {
+	--colour-accent-primary: #2e6f40;
+	--colour-accent-secondary: #2ed573;
+	--colour-warn-primary: #ff9f43;
+	--colour-warn-secondary: #feca57;
+	--colour-error-primary: #ee5253;
+	--colour-error-secondary: #ff6b6b;
+	--colour-ok-primary: #2ed573;
+	--colour-ok-secondary: #7bed9f;
+	--colour-overlay: black;
+}
