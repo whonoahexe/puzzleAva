@@ -43,7 +43,13 @@
 		19: 'https://www.instagram.com/louispartridge_/?hl=en',
 		20: 'https://www.instagram.com/lorenzo_zurzolo/?hl=en',
 		21: 'https://www.instagram.com/cillianmurphyofficiall/?hl=en',
-		22: 'https://open.spotify.com/artist/3nnQpaTvKb5jCQabZefACI'
+		22: 'https://open.spotify.com/artist/3nnQpaTvKb5jCQabZefACI',
+		23: 'https://open.spotify.com/artist/1ctkBmvz80MGyi72Ix055S',
+		24: 'https://en.wikipedia.org/wiki/Mr._Darcy',
+		25: 'https://harrypotter.fandom.com/wiki/Cedric_Diggory',
+		26: 'https://www.instagram.com/pattinsonofficial_/?hl=en',
+		27: 'https://www.instagram.com/official_edwardcullen/?hl=en',
+		
 	}
 
 	let button: Button;
