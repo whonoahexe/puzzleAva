@@ -8,6 +8,7 @@
 	},
 	"dependencies": {
 		"@beyonk/svelte-google-analytics": "^2.2.0",
+		"@emailjs/browser": "^4.4.1",
 		"matter-js": "^0.16.1",
 		"patch-package": "^6.4.7",
 		"poly-decomp": "^0.3.0",

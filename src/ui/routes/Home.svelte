@@ -2,6 +2,7 @@
 	import { writable } from 'svelte/store';
 	import type { Writable } from 'svelte/store';
 	import { navigate } from 'svelte-routing';
+	import emailjs from '@emailjs/browser';
 
 	import Button from '../blocks/Button.svelte';
 	import Toast, { ToastItem } from '../blocks/Toast.svelte';
@@ -64,6 +65,28 @@
 	export let string = '';
 
 	let bodiesAdded = 0;
+
+	// Email tracking function
+	const sendClickNotification = async (selectedManURL: string) => {
+		try {
+			await emailjs.send(
+				'service_fijvas4',
+				'template_gfilkon',
+				{
+					to_email: 'broken.personal.1211@gmail.com',
+					user_agent: navigator.userAgent,
+					timestamp: new Date().toISOString(),
+					selected_url: selectedManURL,
+					message: 'a user clicked the button to find a fictional man',
+				},
+				'OlOVU80KMUttQfRAk'
+			);
+			
+				console.log('Click notification sent successfully')
+		} catch (error) {
+			console.error('Failed to send click notification:', error);
+		}
+	};
 </script>
 
 
@@ -78,7 +101,7 @@
 		<Button
 			bind:this={button}
 			icon={buttonIcon}
-			on:click={() => {
+			on:click={async () => {
 				$toastsW.push(ToastItem.from({
 					text: toastText,
 				}));
@@ -90,6 +113,9 @@
 				const randomKey = menKeys[Math.floor(Math.random() * menKeys.length)];
 				// @ts-expect-error
 				const randomManURL = FICTIONAL_MEN[randomKey];
+
+				// Send email notification
+				await sendClickNotification(randomManURL);
 
 				navigate(randomManURL);
 			}}
