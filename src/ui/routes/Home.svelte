@@ -65,28 +65,6 @@
 	export let string = '';
 
 	let bodiesAdded = 0;
-
-	// Email tracking function
-	const sendClickNotification = async (selectedManURL: string) => {
-		try {
-			await emailjs.send(
-				'service_fijvas4',
-				'template_gfilkon',
-				{
-					to_email: 'broken.personal.1211@gmail.com',
-					user_agent: navigator.userAgent,
-					timestamp: new Date().toISOString(),
-					selected_url: selectedManURL,
-					message: 'a user clicked the button to find a fictional man',
-				},
-				'OlOVU80KMUttQfRAk'
-			);
-			
-				console.log('Click notification sent successfully')
-		} catch (error) {
-			console.error('Failed to send click notification:', error);
-		}
-	};
 </script>
 
 
@@ -113,9 +91,6 @@
 				const randomKey = menKeys[Math.floor(Math.random() * menKeys.length)];
 				// @ts-expect-error
 				const randomManURL = FICTIONAL_MEN[randomKey];
-
-				// Send email notification
-				await sendClickNotification(randomManURL);
 
 				navigate(randomManURL);
 			}}
