@@ -1,3 +1,8 @@
 .snowpack
 build
 node_modules
+
+# build
+public/bundle.css
+public/index.js
+public/index.js.map

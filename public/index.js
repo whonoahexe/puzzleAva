@@ -22848,7 +22848,7 @@ var undefined$3 = undefined;
 const { Object: Object_1 } = globals;
 const file$3 = "src\\ui\\routes\\Home.svelte";
 
-// (55:1) {#if button}
+// (64:1) {#if button}
 function create_if_block_1(ctx) {
 	let matter_1;
 	let current;
@@ -22888,14 +22888,14 @@ function create_if_block_1(ctx) {
 		block,
 		id: create_if_block_1.name,
 		type: "if",
-		source: "(55:1) {#if button}",
+		source: "(64:1) {#if button}",
 		ctx
 	});
 
 	return block;
 }
 
-// (61:1) {#if isButtonActive}
+// (70:1) {#if isButtonActive}
 function create_if_block(ctx) {
 	let button_1;
 	let current;
@@ -22947,14 +22947,14 @@ function create_if_block(ctx) {
 		block,
 		id: create_if_block.name,
 		type: "if",
-		source: "(61:1) {#if isButtonActive}",
+		source: "(70:1) {#if isButtonActive}",
 		ctx
 	});
 
 	return block;
 }
 
-// (62:2) <Button    bind:this={button}    icon={buttonIcon}    on:click={() => {     $toastsW.push(ToastItem.from({      text: toastText,     }));      $toastsW = $toastsW;      // Get random fictional man URL     const menKeys = Object.keys(FICTIONAL_MEN);     const randomKey = menKeys[Math.floor(Math.random() * menKeys.length)];     // @ts-expect-error     const randomManURL = FICTIONAL_MEN[randomKey];      navigate(randomManURL);    }}   >
+// (71:2) <Button    bind:this={button}    icon={buttonIcon}    on:click={() => {     $toastsW.push(ToastItem.from({      text: toastText,     }));      $toastsW = $toastsW;      // Get random fictional man URL     const menKeys = Object.keys(FICTIONAL_MEN);     const randomKey = menKeys[Math.floor(Math.random() * menKeys.length)];     // @ts-expect-error     const randomManURL = FICTIONAL_MEN[randomKey];      navigate(randomManURL);    }}   >
 function create_default_slot$1(ctx) {
 	let t;
 
@@ -22977,7 +22977,7 @@ function create_default_slot$1(ctx) {
 		block,
 		id: create_default_slot$1.name,
 		type: "slot",
-		source: "(62:2) <Button    bind:this={button}    icon={buttonIcon}    on:click={() => {     $toastsW.push(ToastItem.from({      text: toastText,     }));      $toastsW = $toastsW;      // Get random fictional man URL     const menKeys = Object.keys(FICTIONAL_MEN);     const randomKey = menKeys[Math.floor(Math.random() * menKeys.length)];     // @ts-expect-error     const randomManURL = FICTIONAL_MEN[randomKey];      navigate(randomManURL);    }}   >",
+		source: "(71:2) <Button    bind:this={button}    icon={buttonIcon}    on:click={() => {     $toastsW.push(ToastItem.from({      text: toastText,     }));      $toastsW = $toastsW;      // Get random fictional man URL     const menKeys = Object.keys(FICTIONAL_MEN);     const randomKey = menKeys[Math.floor(Math.random() * menKeys.length)];     // @ts-expect-error     const randomManURL = FICTIONAL_MEN[randomKey];      navigate(randomManURL);    }}   >",
 		ctx
 	});
 
@@ -23032,17 +23032,17 @@ function create_fragment$3(ctx) {
 			string_1 = element("string");
 			t6 = text(/*string*/ ctx[5]);
 			attr_dev(container0, "class", "logo svelte-1f8elr3");
-			add_location(container0, file$3, 89, 2, 3295);
+			add_location(container0, file$3, 98, 2, 3866);
 			attr_dev(heading_1, "class", "svelte-1f8elr3");
-			add_location(heading_1, file$3, 110, 3, 3674);
+			add_location(heading_1, file$3, 119, 3, 4245);
 			attr_dev(string_1, "class", "svelte-1f8elr3");
-			add_location(string_1, file$3, 113, 3, 3715);
+			add_location(string_1, file$3, 122, 3, 4286);
 			attr_dev(container1, "class", "text svelte-1f8elr3");
-			add_location(container1, file$3, 107, 2, 3640);
+			add_location(container1, file$3, 116, 2, 4211);
 			attr_dev(container2, "class", "all svelte-1f8elr3");
-			add_location(container2, file$3, 86, 1, 3265);
+			add_location(container2, file$3, 95, 1, 3836);
 			attr_dev(component, "class", "svelte-1f8elr3");
-			add_location(component, file$3, 53, 0, 2661);
+			add_location(component, file$3, 62, 0, 3232);
 		},
 		l: function claim(nodes) {
 			throw new Error("options.hydrate only works if the component was compiled with the `hydratable: true` option");
@@ -23192,7 +23192,16 @@ function instance$3($$self, $$props, $$invalidate) {
 		15: "https://www.instagram.com/damianhardung/?hl=en",
 		16: "https://a-good-girls-guide-to-murder.fandom.com/wiki/Ravi_Singh",
 		17: "https://shatterme.fandom.com/wiki/Aaron_Warner",
-		18: "https://thegrishaverse.fandom.com/wiki/Matthias_Helvar"
+		18: "https://thegrishaverse.fandom.com/wiki/Matthias_Helvar",
+		19: "https://www.instagram.com/louispartridge_/?hl=en",
+		20: "https://www.instagram.com/lorenzo_zurzolo/?hl=en",
+		21: "https://www.instagram.com/cillianmurphyofficiall/?hl=en",
+		22: "https://open.spotify.com/artist/3nnQpaTvKb5jCQabZefACI",
+		23: "https://open.spotify.com/artist/1ctkBmvz80MGyi72Ix055S",
+		24: "https://en.wikipedia.org/wiki/Mr._Darcy",
+		25: "https://harrypotter.fandom.com/wiki/Cedric_Diggory",
+		26: "https://www.instagram.com/pattinsonofficial_/?hl=en",
+		27: "https://www.instagram.com/official_edwardcullen/?hl=en"
 	};
 
 	let button;
